@@ -33,4 +33,8 @@ jobs:
           ONSHAPE_API: ${{ vars.ONSHAPE_API }}
           ONSHAPE_ACCESS_KEY: ${{ secrets.ONSHAPE_ACCESS_KEY }}
           ONSHAPE_SECRET_KEY: ${{ secrets.ONSHAPE_SECRET_KEY }}
-        run: onshape-to-robot .
+        run: |
+          onshape-to-robot .
+          git add .
+          git commit -m "updated urdf"
+          git push
