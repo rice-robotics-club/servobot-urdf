@@ -28,4 +28,4 @@ jobs:
         with:
           python-version: '3.13'
       - run: pip install onshape-to-robot
-      - run: onshape-to-robot description
+      - run: onshape-to-robot .
