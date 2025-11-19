@@ -392,7 +392,7 @@
     <parent link="part_1"/>
     <child link="2000_0025_0002"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from hipasm to part_1 -->
   <joint name="bl_top" type="revolute">
@@ -400,7 +400,7 @@
     <parent link="hipasm"/>
     <child link="part_1"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from chassisasm to hipasm -->
   <joint name="bl_hip" type="revolute">
@@ -600,7 +600,7 @@
     <parent link="part_1_2"/>
     <child link="2000_0025_0002_2"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from hipasm_2 to part_1_2 -->
   <joint name="fl_top" type="revolute">
@@ -608,7 +608,7 @@
     <parent link="hipasm_2"/>
     <child link="part_1_2"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from chassisasm to hipasm_2 -->
   <joint name="fl_hip" type="revolute">
@@ -808,7 +808,7 @@
     <parent link="part_1_3"/>
     <child link="2000_0025_0002_3"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from hipasm_3 to part_1_3 -->
   <joint name="fr_top" type="revolute">
@@ -816,7 +816,7 @@
     <parent link="hipasm_3"/>
     <child link="part_1_3"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from chassisasm to hipasm_3 -->
   <joint name="fr_hip" type="revolute">
@@ -1016,7 +1016,7 @@
     <parent link="part_1_4"/>
     <child link="2000_0025_0002_4"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from hipasm_4 to part_1_4 -->
   <joint name="br_top" type="revolute">
@@ -1024,7 +1024,7 @@
     <parent link="hipasm_4"/>
     <child link="part_1_4"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+    <limit effort="10" velocity="10" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from chassisasm to hipasm_4 -->
   <joint name="br_hip" type="revolute">
