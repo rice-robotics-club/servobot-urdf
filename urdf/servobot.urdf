@@ -274,13 +274,29 @@
       </geometry>
     </collision>
   </link>
-  <!-- Link legasm2 -->
-  <link name="legasm2">
+  <!-- Link part_1 -->
+  <link name="part_1">
     <inertial>
-      <origin xyz="-0.00824415 0.071376 0.000683005" rpy="0 0 0"/>
-      <mass value="0.0908915"/>
-      <inertia ixx="6.6747e-05" ixy="1.02938e-05" ixz="1.55237e-05" iyy="7.17021e-05" iyz="-4.38861e-06" izz="0.00010584"/>
+      <origin xyz="-3.50653e-11 0.0681951 -0.00408849" rpy="0 0 0"/>
+      <mass value="0.0738028"/>
+      <inertia ixx="5.15501e-05" ixy="3.92959e-13" ixz="4.85036e-13" iyy="1.13101e-05" iyz="1.56916e-06" izz="4.83161e-05"/>
     </inertial>
+    <!-- Part part_1_6 -->
+    <visual>
+      <origin xyz="-2.77556e-17 0.0425934 0.003" rpy="-3.14159 4.93038e-32 5.55112e-17"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
+      </geometry>
+      <material name="part_1_6_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.77556e-17 0.0425934 0.003" rpy="-3.14159 4.93038e-32 5.55112e-17"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
+      </geometry>
+    </collision>
     <!-- Part mg995_gear2_2 -->
     <visual>
       <origin xyz="0 0 -0.002" rpy="0 -3.39112e-41 0"/>
@@ -295,38 +311,6 @@
       <origin xyz="0 0 -0.002" rpy="0 -3.39112e-41 0"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
-      </geometry>
-    </collision>
-    <!-- Part part_1_6 -->
-    <visual>
-      <origin xyz="-0.0427644 0.0851134 0.0174" rpy="3.03099e-18 2.00394e-17 -1.5708"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
-      </geometry>
-      <material name="part_1_6_material">
-        <color rgba="0.917647 0.917647 0.917647 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="-0.0427644 0.0851134 0.0174" rpy="3.03099e-18 2.00394e-17 -1.5708"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
-      </geometry>
-    </collision>
-    <!-- Part part_1_7 -->
-    <visual>
-      <origin xyz="-2.77556e-17 0.0425934 0.003" rpy="-3.14159 4.93038e-32 5.55112e-17"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
-      </geometry>
-      <material name="part_1_7_material">
-        <color rgba="0.917647 0.917647 0.917647 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="-2.77556e-17 0.0425934 0.003" rpy="-3.14159 4.93038e-32 5.55112e-17"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
       </geometry>
     </collision>
     <!-- Part 2000_0025_0002_11 -->
@@ -345,25 +329,17 @@
         <mesh filename="package://servobot_description/meshes/2000_0025_0002__2.stl"/>
       </geometry>
     </collision>
-    <!-- Part 2000_0025_0002_12 -->
-    <visual>
-      <origin xyz="2.77556e-17 0.0752634 0.0147" rpy="-3.17154e-17 2.00394e-17 -1.5708"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/2000_0025_0002.stl"/>
-      </geometry>
-      <material name="2000_0025_0002_12_material">
-        <color rgba="0.498039 0.498039 0.498039 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="2.77556e-17 0.0752634 0.0147" rpy="-3.17154e-17 2.00394e-17 -1.5708"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/2000_0025_0002.stl"/>
-      </geometry>
-    </collision>
+  </link>
+  <!-- Link 2000_0025_0002 -->
+  <link name="2000_0025_0002">
+    <inertial>
+      <origin xyz="4.39567e-09 0.0438489 -0.00539012" rpy="0 0 0"/>
+      <mass value="0.0170887"/>
+      <inertia ixx="2.47754e-05" ixy="3.29288e-12" ixz="-4.9253e-13" iyy="2.28817e-06" iyz="8.2332e-08" izz="2.68729e-05"/>
+    </inertial>
     <!-- Part mg995_gear2_3 -->
     <visual>
-      <origin xyz="2.77556e-17 0.0851134 0.0224" rpy="-3.14159 -2.00394e-17 1.5708"/>
+      <origin xyz="0 1.38778e-17 -0.0065" rpy="-4.37951e-19 -5.58991e-33 -3.14159"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
       </geometry>
@@ -372,17 +348,57 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="2.77556e-17 0.0851134 0.0224" rpy="-3.14159 -2.00394e-17 1.5708"/>
+      <origin xyz="0 1.38778e-17 -0.0065" rpy="-4.37951e-19 -5.58991e-33 -3.14159"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
       </geometry>
     </collision>
+    <!-- Part 2000_0025_0002_12 -->
+    <visual>
+      <origin xyz="0.00985 1.38778e-17 0.0012" rpy="3.14159 1.42219e-33 -1.2326e-32"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/2000_0025_0002.stl"/>
+      </geometry>
+      <material name="2000_0025_0002_12_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00985 1.38778e-17 0.0012" rpy="3.14159 1.42219e-33 -1.2326e-32"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/2000_0025_0002.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_1_7 -->
+    <visual>
+      <origin xyz="1.7486e-15 0.0427644 -0.0015" rpy="-3.14159 7.01965e-33 1.38778e-17"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
+      </geometry>
+      <material name="part_1_7_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.7486e-15 0.0427644 -0.0015" rpy="-3.14159 7.01965e-33 1.38778e-17"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
+      </geometry>
+    </collision>
   </link>
-  <!-- Joint from hipasm to legasm2 -->
+  <!-- Joint from part_1 to 2000_0025_0002 -->
+  <joint name="bl_bot" type="revolute">
+    <origin xyz="4.16334e-17 0.0851134 0.0159" rpy="3.14159 2.00394e-17 -1.5708"/>
+    <parent link="part_1"/>
+    <child link="2000_0025_0002"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+  </joint>
+  <!-- Joint from hipasm to part_1 -->
   <joint name="bl_top" type="revolute">
     <origin xyz="-0.0274 2.77556e-17 -0.03945" rpy="6.1089e-26 1.5708 0"/>
     <parent link="hipasm"/>
-    <child link="legasm2"/>
+    <child link="part_1"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
   </joint>
@@ -466,12 +482,12 @@
       </geometry>
     </collision>
   </link>
-  <!-- Link legasm -->
-  <link name="legasm">
+  <!-- Link part_1_2 -->
+  <link name="part_1_2">
     <inertial>
-      <origin xyz="-0.00824415 0.071376 0.000683005" rpy="0 0 0"/>
-      <mass value="0.0908915"/>
-      <inertia ixx="6.6747e-05" ixy="1.02938e-05" ixz="1.55237e-05" iyy="7.17021e-05" iyz="-4.38861e-06" izz="0.00010584"/>
+      <origin xyz="-3.50652e-11 0.0681951 -0.00408849" rpy="0 0 0"/>
+      <mass value="0.0738028"/>
+      <inertia ixx="5.15501e-05" ixy="3.92959e-13" ixz="4.85036e-13" iyy="1.13101e-05" iyz="1.56916e-06" izz="4.83161e-05"/>
     </inertial>
     <!-- Part mg995_gear2_5 -->
     <visual>
@@ -487,38 +503,6 @@
       <origin xyz="-1.38778e-17 0 -0.002" rpy="0 -0 2.34193e-31"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
-      </geometry>
-    </collision>
-    <!-- Part part_1_9 -->
-    <visual>
-      <origin xyz="-0.0427644 0.0851134 0.0174" rpy="0 -0 -1.5708"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
-      </geometry>
-      <material name="part_1_9_material">
-        <color rgba="0.917647 0.917647 0.917647 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="-0.0427644 0.0851134 0.0174" rpy="0 -0 -1.5708"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
-      </geometry>
-    </collision>
-    <!-- Part part_1_10 -->
-    <visual>
-      <origin xyz="2.77556e-17 0.0425934 0.003" rpy="3.14159 -0 3.05311e-16"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
-      </geometry>
-      <material name="part_1_10_material">
-        <color rgba="0.917647 0.917647 0.917647 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="2.77556e-17 0.0425934 0.003" rpy="3.14159 -0 3.05311e-16"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
       </geometry>
     </collision>
     <!-- Part 2000_0025_0002_15 -->
@@ -537,25 +521,49 @@
         <mesh filename="package://servobot_description/meshes/2000_0025_0002__2.stl"/>
       </geometry>
     </collision>
-    <!-- Part 2000_0025_0002_16 -->
+    <!-- Part part_1_9 -->
     <visual>
-      <origin xyz="2.77556e-17 0.0752634 0.0147" rpy="0 -0 -1.5708"/>
+      <origin xyz="2.77556e-17 0.0425934 0.003" rpy="3.14159 -0 3.05311e-16"/>
       <geometry>
-        <mesh filename="package://servobot_description/meshes/2000_0025_0002.stl"/>
+        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
       </geometry>
-      <material name="2000_0025_0002_16_material">
-        <color rgba="0.498039 0.498039 0.498039 1"/>
+      <material name="part_1_9_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
       </material>
     </visual>
     <collision>
-      <origin xyz="2.77556e-17 0.0752634 0.0147" rpy="0 -0 -1.5708"/>
+      <origin xyz="2.77556e-17 0.0425934 0.003" rpy="3.14159 -0 3.05311e-16"/>
       <geometry>
-        <mesh filename="package://servobot_description/meshes/2000_0025_0002.stl"/>
+        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link 2000_0025_0002_2 -->
+  <link name="2000_0025_0002_2">
+    <inertial>
+      <origin xyz="4.39567e-09 0.0438489 -0.00539012" rpy="0 0 0"/>
+      <mass value="0.0170887"/>
+      <inertia ixx="2.47754e-05" ixy="3.29288e-12" ixz="-4.9253e-13" iyy="2.28817e-06" iyz="8.2332e-08" izz="2.68729e-05"/>
+    </inertial>
+    <!-- Part part_1_10 -->
+    <visual>
+      <origin xyz="-4.16334e-17 0.0427644 -0.0015" rpy="3.14159 -0 5.13478e-16"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
+      </geometry>
+      <material name="part_1_10_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-4.16334e-17 0.0427644 -0.0015" rpy="3.14159 -0 5.13478e-16"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
       </geometry>
     </collision>
     <!-- Part mg995_gear2_6 -->
     <visual>
-      <origin xyz="4.16334e-17 0.0851134 0.0224" rpy="3.14159 -0 1.5708"/>
+      <origin xyz="-1.38778e-17 0 -0.0065" rpy="0 -0 -3.14159"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
       </geometry>
@@ -564,17 +572,41 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="4.16334e-17 0.0851134 0.0224" rpy="3.14159 -0 1.5708"/>
+      <origin xyz="-1.38778e-17 0 -0.0065" rpy="0 -0 -3.14159"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
       </geometry>
     </collision>
+    <!-- Part 2000_0025_0002_16 -->
+    <visual>
+      <origin xyz="0.00985 1.38778e-17 0.0012" rpy="3.14159 -0 -3.54371e-32"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/2000_0025_0002.stl"/>
+      </geometry>
+      <material name="2000_0025_0002_16_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.00985 1.38778e-17 0.0012" rpy="3.14159 -0 -3.54371e-32"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/2000_0025_0002.stl"/>
+      </geometry>
+    </collision>
   </link>
-  <!-- Joint from hipasm_2 to legasm -->
+  <!-- Joint from part_1_2 to 2000_0025_0002_2 -->
+  <joint name="fl_bot" type="revolute">
+    <origin xyz="4.16334e-17 0.0851134 0.0159" rpy="3.14159 -0 -1.5708"/>
+    <parent link="part_1_2"/>
+    <child link="2000_0025_0002_2"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+  </joint>
+  <!-- Joint from hipasm_2 to part_1_2 -->
   <joint name="fl_top" type="revolute">
     <origin xyz="-0.0274 6.245e-17 -0.03945" rpy="-3.14159 -1.5708 0"/>
     <parent link="hipasm_2"/>
-    <child link="legasm"/>
+    <child link="part_1_2"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
   </joint>
@@ -658,61 +690,13 @@
       </geometry>
     </collision>
   </link>
-  <!-- Link legasmflipped -->
-  <link name="legasmflipped">
+  <!-- Link part_1_3 -->
+  <link name="part_1_3">
     <inertial>
-      <origin xyz="0.00824415 0.071376 0.000683005" rpy="0 0 0"/>
-      <mass value="0.0908915"/>
-      <inertia ixx="6.6747e-05" ixy="-1.02938e-05" ixz="-1.55237e-05" iyy="7.17021e-05" iyz="-4.38861e-06" izz="0.00010584"/>
+      <origin xyz="-3.50655e-11 0.0681951 -0.00408849" rpy="0 0 0"/>
+      <mass value="0.0738028"/>
+      <inertia ixx="5.15501e-05" ixy="3.92959e-13" ixz="4.85036e-13" iyy="1.13101e-05" iyz="1.56916e-06" izz="4.83161e-05"/>
     </inertial>
-    <!-- Part mg995_gear2_8 -->
-    <visual>
-      <origin xyz="0 0 -0.002" rpy="0 -0 -2.46519e-32"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
-      </geometry>
-      <material name="mg995_gear2_8_material">
-        <color rgba="0.262745 0.282353 0.301961 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="0 0 -0.002" rpy="0 -0 -2.46519e-32"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
-      </geometry>
-    </collision>
-    <!-- Part part_1_12 -->
-    <visual>
-      <origin xyz="0.0427644 0.0851134 0.0174" rpy="1.1993e-17 -8.06087e-17 1.5708"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
-      </geometry>
-      <material name="part_1_12_material">
-        <color rgba="0.917647 0.917647 0.917647 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="0.0427644 0.0851134 0.0174" rpy="1.1993e-17 -8.06087e-17 1.5708"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
-      </geometry>
-    </collision>
-    <!-- Part part_1_13 -->
-    <visual>
-      <origin xyz="-8.32667e-17 0.0425934 0.003" rpy="-3.14159 8.50122e-16 -1.30122e-15"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
-      </geometry>
-      <material name="part_1_13_material">
-        <color rgba="0.917647 0.917647 0.917647 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="-8.32667e-17 0.0425934 0.003" rpy="-3.14159 8.50122e-16 -1.30122e-15"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
-      </geometry>
-    </collision>
     <!-- Part 2000_0025_0002_19 -->
     <visual>
       <origin xyz="-1.80411e-16 0.0752634 0.0142" rpy="-1.69366e-15 4.58953e-16 -1.5708"/>
@@ -729,9 +713,65 @@
         <mesh filename="package://servobot_description/meshes/2000_0025_0002__2.stl"/>
       </geometry>
     </collision>
+    <!-- Part part_1_12 -->
+    <visual>
+      <origin xyz="-8.32667e-17 0.0425934 0.003" rpy="-3.14159 8.50122e-16 -1.30122e-15"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
+      </geometry>
+      <material name="part_1_12_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-8.32667e-17 0.0425934 0.003" rpy="-3.14159 8.50122e-16 -1.30122e-15"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part mg995_gear2_8 -->
+    <visual>
+      <origin xyz="0 0 -0.002" rpy="0 -0 -2.46519e-32"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
+      </geometry>
+      <material name="mg995_gear2_8_material">
+        <color rgba="0.262745 0.282353 0.301961 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.002" rpy="0 -0 -2.46519e-32"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link 2000_0025_0002_3 -->
+  <link name="2000_0025_0002_3">
+    <inertial>
+      <origin xyz="4.39567e-09 0.0438489 -0.00539012" rpy="0 0 0"/>
+      <mass value="0.0170887"/>
+      <inertia ixx="2.47754e-05" ixy="3.29288e-12" ixz="-4.9253e-13" iyy="2.28817e-06" iyz="8.2332e-08" izz="2.68729e-05"/>
+    </inertial>
+    <!-- Part part_1_13 -->
+    <visual>
+      <origin xyz="-3.19189e-16 0.0427644 -0.0015" rpy="3.14159 7.01011e-16 -5.66994e-31"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
+      </geometry>
+      <material name="part_1_13_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-3.19189e-16 0.0427644 -0.0015" rpy="3.14159 7.01011e-16 -5.66994e-31"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
+      </geometry>
+    </collision>
     <!-- Part 2000_0025_0002_20 -->
     <visual>
-      <origin xyz="-2.63678e-16 0.0949634 0.0147" rpy="4.62084e-16 6.20402e-16 1.5708"/>
+      <origin xyz="0.00985 0 0.0012" rpy="-3.14159 1.16839e-31 -8.25839e-31"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/2000_0025_0002.stl"/>
       </geometry>
@@ -740,14 +780,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-2.63678e-16 0.0949634 0.0147" rpy="4.62084e-16 6.20402e-16 1.5708"/>
+      <origin xyz="0.00985 0 0.0012" rpy="-3.14159 1.16839e-31 -8.25839e-31"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/2000_0025_0002.stl"/>
       </geometry>
     </collision>
     <!-- Part mg995_gear2_9 -->
     <visual>
-      <origin xyz="-2.63678e-16 0.0851134 0.0224" rpy="-3.14159 -2.13928e-16 -1.5708"/>
+      <origin xyz="0 0 -0.0065" rpy="5.85595e-16 -4.06475e-16 3.14159"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
       </geometry>
@@ -756,17 +796,25 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-2.63678e-16 0.0851134 0.0224" rpy="-3.14159 -2.13928e-16 -1.5708"/>
+      <origin xyz="0 0 -0.0065" rpy="5.85595e-16 -4.06475e-16 3.14159"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
       </geometry>
     </collision>
   </link>
-  <!-- Joint from hipasm_3 to legasmflipped -->
+  <!-- Joint from part_1_3 to 2000_0025_0002_3 -->
+  <joint name="fr_bot" type="revolute">
+    <origin xyz="-2.63678e-16 0.0851134 0.0159" rpy="-3.14159 6.20402e-16 1.5708"/>
+    <parent link="part_1_3"/>
+    <child link="2000_0025_0002_3"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+  </joint>
+  <!-- Joint from hipasm_3 to part_1_3 -->
   <joint name="fr_top" type="revolute">
     <origin xyz="-0.0274 4.85723e-17 -0.03945" rpy="-0 1.5708 0"/>
     <parent link="hipasm_3"/>
-    <child link="legasmflipped"/>
+    <child link="part_1_3"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
   </joint>
@@ -850,12 +898,12 @@
       </geometry>
     </collision>
   </link>
-  <!-- Link legasmflipped2 -->
-  <link name="legasmflipped2">
+  <!-- Link part_1_4 -->
+  <link name="part_1_4">
     <inertial>
-      <origin xyz="0.00824415 0.071376 0.000683005" rpy="0 0 0"/>
-      <mass value="0.0908915"/>
-      <inertia ixx="6.6747e-05" ixy="-1.02938e-05" ixz="-1.55237e-05" iyy="7.17021e-05" iyz="-4.38861e-06" izz="0.00010584"/>
+      <origin xyz="-3.50653e-11 0.0681951 -0.00408849" rpy="0 0 0"/>
+      <mass value="0.0738028"/>
+      <inertia ixx="5.15501e-05" ixy="3.92959e-13" ixz="4.85036e-13" iyy="1.13101e-05" iyz="1.56916e-06" izz="4.83161e-05"/>
     </inertial>
     <!-- Part mg995_gear2_11 -->
     <visual>
@@ -871,38 +919,6 @@
       <origin xyz="0 0 -0.002" rpy="0 2.57699e-33 0"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
-      </geometry>
-    </collision>
-    <!-- Part part_1_15 -->
-    <visual>
-      <origin xyz="0.0427644 0.0851134 0.0174" rpy="2.16429e-16 -1.17897e-16 1.5708"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
-      </geometry>
-      <material name="part_1_15_material">
-        <color rgba="0.917647 0.917647 0.917647 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="0.0427644 0.0851134 0.0174" rpy="2.16429e-16 -1.17897e-16 1.5708"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
-      </geometry>
-    </collision>
-    <!-- Part part_1_16 -->
-    <visual>
-      <origin xyz="0 0.0425934 0.003" rpy="-3.14159 1.08596e-31 -5.55112e-17"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
-      </geometry>
-      <material name="part_1_16_material">
-        <color rgba="0.917647 0.917647 0.917647 1"/>
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="0 0.0425934 0.003" rpy="-3.14159 1.08596e-31 -5.55112e-17"/>
-      <geometry>
-        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
       </geometry>
     </collision>
     <!-- Part 2000_0025_0002_23 -->
@@ -921,9 +937,33 @@
         <mesh filename="package://servobot_description/meshes/2000_0025_0002__2.stl"/>
       </geometry>
     </collision>
+    <!-- Part part_1_15 -->
+    <visual>
+      <origin xyz="0 0.0425934 0.003" rpy="-3.14159 1.08596e-31 -5.55112e-17"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
+      </geometry>
+      <material name="part_1_15_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0.0425934 0.003" rpy="-3.14159 1.08596e-31 -5.55112e-17"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__6.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link 2000_0025_0002_4 -->
+  <link name="2000_0025_0002_4">
+    <inertial>
+      <origin xyz="4.39567e-09 0.0438489 -0.00539012" rpy="0 0 0"/>
+      <mass value="0.0170887"/>
+      <inertia ixx="2.47754e-05" ixy="3.29288e-12" ixz="-4.9253e-13" iyy="2.28817e-06" iyz="8.2332e-08" izz="2.68729e-05"/>
+    </inertial>
     <!-- Part 2000_0025_0002_24 -->
     <visual>
-      <origin xyz="-1.38778e-17 0.0949634 0.0147" rpy="8.8305e-17 -1.22783e-16 1.5708"/>
+      <origin xyz="0.00985 1.38778e-17 0.0012" rpy="3.14159 -0 0"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/2000_0025_0002.stl"/>
       </geometry>
@@ -932,14 +972,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-1.38778e-17 0.0949634 0.0147" rpy="8.8305e-17 -1.22783e-16 1.5708"/>
+      <origin xyz="0.00985 1.38778e-17 0.0012" rpy="3.14159 -0 0"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/2000_0025_0002.stl"/>
       </geometry>
     </collision>
     <!-- Part mg995_gear2_12 -->
     <visual>
-      <origin xyz="1.38778e-17 0.0851134 0.0224" rpy="3.14159 2.12846e-16 -1.5708"/>
+      <origin xyz="1.38778e-17 4.16334e-17 -0.0065" rpy="-7.26131e-17 -9.0063e-17 -3.14159"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
       </geometry>
@@ -948,17 +988,41 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="1.38778e-17 0.0851134 0.0224" rpy="3.14159 2.12846e-16 -1.5708"/>
+      <origin xyz="1.38778e-17 4.16334e-17 -0.0065" rpy="-7.26131e-17 -9.0063e-17 -3.14159"/>
       <geometry>
         <mesh filename="package://servobot_description/meshes/mg995_gear2.stl"/>
       </geometry>
     </collision>
+    <!-- Part part_1_16 -->
+    <visual>
+      <origin xyz="-2.77556e-17 0.0427644 -0.0015" rpy="-3.14159 -4.88595e-18 4.85723e-16"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
+      </geometry>
+      <material name="part_1_16_material">
+        <color rgba="0.917647 0.917647 0.917647 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-2.77556e-17 0.0427644 -0.0015" rpy="-3.14159 -4.88595e-18 4.85723e-16"/>
+      <geometry>
+        <mesh filename="package://servobot_description/meshes/part_1__7.stl"/>
+      </geometry>
+    </collision>
   </link>
-  <!-- Joint from hipasm_4 to legasmflipped2 -->
+  <!-- Joint from part_1_4 to 2000_0025_0002_4 -->
+  <joint name="br_bot" type="revolute">
+    <origin xyz="-2.77556e-17 0.0851134 0.0159" rpy="-3.14159 -1.22783e-16 1.5708"/>
+    <parent link="part_1_4"/>
+    <child link="2000_0025_0002_4"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
+  </joint>
+  <!-- Joint from hipasm_4 to part_1_4 -->
   <joint name="br_top" type="revolute">
     <origin xyz="-0.0274 6.245e-17 -0.03945" rpy="3.14159 -1.5708 0"/>
     <parent link="hipasm_4"/>
-    <child link="legasmflipped2"/>
+    <child link="part_1_4"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
   </joint>
