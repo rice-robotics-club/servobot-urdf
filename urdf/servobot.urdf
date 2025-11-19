@@ -379,20 +379,20 @@
     </collision>
   </link>
   <!-- Joint from hipasm to legasm2 -->
-  <joint name="bl_top" type="fixed">
+  <joint name="bl_top" type="revolute">
     <origin xyz="-0.0274 2.77556e-17 -0.03945" rpy="6.1089e-26 1.5708 0"/>
     <parent link="hipasm"/>
     <child link="legasm2"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10"/>
+    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
   </joint>
   <!-- Joint from chassisasm to hipasm -->
-  <joint name="bl_hip" type="fixed">
+  <joint name="bl_hip" type="revolute">
     <origin xyz="-0.05102 -0.0444 -0.025" rpy="-1.5708 -0 0"/>
     <parent link="chassisasm"/>
     <child link="hipasm"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10"/>
+    <limit effort="10" velocity="10" lower="-1" upper="1"/>
   </joint>
   <!-- Link hipasm_2 -->
   <link name="hipasm_2">
@@ -571,20 +571,20 @@
     </collision>
   </link>
   <!-- Joint from hipasm_2 to legasm -->
-  <joint name="fl_top" type="fixed">
+  <joint name="fl_top" type="revolute">
     <origin xyz="-0.0274 6.245e-17 -0.03945" rpy="-3.14159 -1.5708 0"/>
     <parent link="hipasm_2"/>
     <child link="legasm"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10"/>
+    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
   </joint>
   <!-- Joint from chassisasm to hipasm_2 -->
-  <joint name="fl_hip" type="fixed">
+  <joint name="fl_hip" type="revolute">
     <origin xyz="-0.05102 0.0444 -0.025" rpy="1.5708 -0 0"/>
     <parent link="chassisasm"/>
     <child link="hipasm_2"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10"/>
+    <limit effort="10" velocity="10" lower="-1" upper="1"/>
   </joint>
   <!-- Link hipasm_3 -->
   <link name="hipasm_3">
@@ -763,20 +763,20 @@
     </collision>
   </link>
   <!-- Joint from hipasm_3 to legasmflipped -->
-  <joint name="fr_top" type="fixed">
+  <joint name="fr_top" type="revolute">
     <origin xyz="-0.0274 4.85723e-17 -0.03945" rpy="-0 1.5708 0"/>
     <parent link="hipasm_3"/>
     <child link="legasmflipped"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10"/>
+    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
   </joint>
   <!-- Joint from chassisasm to hipasm_3 -->
-  <joint name="fr_hip" type="fixed">
+  <joint name="fr_hip" type="revolute">
     <origin xyz="0.05102 0.0444 -0.025" rpy="-1.5708 -0 3.14159"/>
     <parent link="chassisasm"/>
     <child link="hipasm_3"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10"/>
+    <limit effort="10" velocity="10" lower="-1" upper="1"/>
   </joint>
   <!-- Link hipasm_4 -->
   <link name="hipasm_4">
@@ -955,19 +955,19 @@
     </collision>
   </link>
   <!-- Joint from hipasm_4 to legasmflipped2 -->
-  <joint name="br_top" type="fixed">
+  <joint name="br_top" type="revolute">
     <origin xyz="-0.0274 6.245e-17 -0.03945" rpy="3.14159 -1.5708 0"/>
     <parent link="hipasm_4"/>
     <child link="legasmflipped2"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10"/>
+    <limit effort="10" velocity="10" lower="-3.14159" upper="3.14159"/>
   </joint>
   <!-- Joint from chassisasm to hipasm_4 -->
-  <joint name="br_hip" type="fixed">
+  <joint name="br_hip" type="revolute">
     <origin xyz="0.05102 -0.0444 -0.025" rpy="1.5708 -0 3.14159"/>
     <parent link="chassisasm"/>
     <child link="hipasm_4"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10"/>
+    <limit effort="10" velocity="10" lower="-1" upper="1"/>
   </joint>
 </robot>
