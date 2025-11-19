@@ -2,7 +2,7 @@
   "robot_name": "servobot",
   "package_name": "servobot_description",
   "assets_directory": "meshes",
-  "output_filename": "urdf/robot",
+  "output_filename": "urdf/servobot.urdf",
   "output_format": "urdf",
   "document_id": "260e550735e8edce21bf9c86",
   "workspace_id": "1dd4a4758e6c79e3140f12ff",
