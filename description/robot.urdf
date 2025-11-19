@@ -63,7 +63,7 @@
     <inertial>
       <origin xyz="0.05515 -0.00881981 -0.081525" rpy="0 0 0"/>
       <mass value="0.493948"/>
-      <inertia ixx="0.00138407" ixy="-3.55076e-18" ixz="-1.50433e-18" iyy="0.00243138" iyz="-4.53671e-18" izz="0.00112985"/>
+      <inertia ixx="0.00138407" ixy="-3.5982e-18" ixz="-1.55854e-18" iyy="0.00243138" iyz="-4.5401e-18" izz="0.00112985"/>
     </inertial>
     <!-- Part base -->
     <visual>
@@ -205,9 +205,9 @@
   <!-- Link toplegasm -->
   <link name="toplegasm">
     <inertial>
-      <origin xyz="-1.34137e-17 0.056 -0.00366855" rpy="0 0 0"/>
+      <origin xyz="-1.33739e-17 0.056 -0.00366855" rpy="0 0 0"/>
       <mass value="0.025684"/>
-      <inertia ixx="3.39573e-05" ixy="1.36903e-20" ixz="-1.14132e-20" iyy="1.21137e-06" iyz="-3.4919e-20" izz="3.49136e-05"/>
+      <inertia ixx="3.39573e-05" ixy="1.36903e-20" ixz="-1.14132e-20" iyy="1.21137e-06" iyz="-3.49228e-20" izz="3.49136e-05"/>
     </inertial>
     <!-- Part servohornreplacement_3 -->
     <visual>
@@ -397,9 +397,9 @@
   <!-- Link toplegasm_2 -->
   <link name="toplegasm_2">
     <inertial>
-      <origin xyz="3.69252e-16 0.056 -0.00366855" rpy="0 0 0"/>
+      <origin xyz="3.69292e-16 0.056 -0.00366855" rpy="0 0 0"/>
       <mass value="0.025684"/>
-      <inertia ixx="3.39573e-05" ixy="1.85369e-20" ixz="2.65154e-21" iyy="1.21137e-06" iyz="7.14889e-22" izz="3.49136e-05"/>
+      <inertia ixx="3.39573e-05" ixy="1.85369e-20" ixz="2.65156e-21" iyy="1.21137e-06" iyz="7.14384e-22" izz="3.49136e-05"/>
     </inertial>
     <!-- Part servohornreplacement_6 -->
     <visual>
@@ -589,9 +589,9 @@
   <!-- Link toplegasm_3 -->
   <link name="toplegasm_3">
     <inertial>
-      <origin xyz="-1.48548e-18 0.056 -0.00366855" rpy="0 0 0"/>
+      <origin xyz="-1.44571e-18 0.056 -0.00366855" rpy="0 0 0"/>
       <mass value="0.025684"/>
-      <inertia ixx="3.39573e-05" ixy="7.54044e-22" ixz="-1.27598e-19" iyy="1.21137e-06" iyz="-4.91353e-21" izz="3.49136e-05"/>
+      <inertia ixx="3.39573e-05" ixy="7.54044e-22" ixz="-1.27598e-19" iyy="1.21137e-06" iyz="-4.91403e-21" izz="3.49136e-05"/>
     </inertial>
     <!-- Part servohornreplacement_9 -->
     <visual>
@@ -733,9 +733,9 @@
   <!-- Link toplegasm_4 -->
   <link name="toplegasm_4">
     <inertial>
-      <origin xyz="7.49064e-18 0.056 -0.00366855" rpy="0 0 0"/>
+      <origin xyz="7.53041e-18 0.056 -0.00366855" rpy="0 0 0"/>
       <mass value="0.025684"/>
-      <inertia ixx="3.39573e-05" ixy="-6.98408e-21" ixz="1.0249e-19" iyy="1.21137e-06" iyz="1.92807e-20" izz="3.49136e-05"/>
+      <inertia ixx="3.39573e-05" ixy="-6.98408e-21" ixz="1.02491e-19" iyy="1.21137e-06" iyz="1.92868e-20" izz="3.49136e-05"/>
     </inertial>
     <!-- Part servohornreplacement_11 -->
     <visual>
