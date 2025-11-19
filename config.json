@@ -1,11 +1,11 @@
 {
   "robot_name": "servobot",
-  "package_name": "servobot-urdf",
-  "assets_directory": "description/meshes",
-  "output_filename": "description/robot",
+  "package_name": "servobot_description",
+  "assets_directory": "meshes",
+  "output_filename": "urdf/robot",
   "output_format": "urdf",
-  "document_id": "6b0deb9ebbbe1b46e45b974c",
-  "workspace_id": "a3fb926f945c06933388de65",
-  "element_id": "59da663e16f273b0de02decc",
-  "assembly_name": "ServoBot"
+  "document_id": "260e550735e8edce21bf9c86",
+  "workspace_id": "1dd4a4758e6c79e3140f12ff",
+  "element_id": "eec2ca4f815ab0347effbbd6",
+  "assembly_name": "FullBot"
 }
