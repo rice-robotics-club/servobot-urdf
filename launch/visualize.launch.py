@@ -30,16 +30,16 @@ def generate_launch_description():
         arguments=["-d", str(servobot_description_path / "rviz" / "servobot.rviz")],
     )
 
-    joint_state_publisher = Node(
-        package="joint_state_publisher",
-        executable="joint_state_publisher",
-        output="both"
+    joint_state_publisher_gui_node = Node(
+        package="joint_state_publisher_gui",
+        executable="joint_state_publisher_gui",
+        output="screen",
     )
 
     return LaunchDescription(
         [
             robot_state_publisher_node,
             rviz_node,
-            joint_state_publisher,
+            joint_state_publisher_gui_node,
         ]
     )
