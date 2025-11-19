@@ -1,1 +1,1 @@
-# servobot-urdf
+# servobot_description
