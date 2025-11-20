@@ -9,7 +9,7 @@ is done with the [onshape-to-robot](https://onshape-to-robot.readthedocs.io/en/l
 
 A joint name array constant is included in Python, which can be imported via:
 ```Python
-from stretch_description import JOINT_NAMES
+from servobot_description import JOINT_NAMES
 ```
 
 Lastly, the URDF model can be previewed in rviz2 by running this launch file:
