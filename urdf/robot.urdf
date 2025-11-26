@@ -5,9 +5,9 @@
   <!-- Link chassisasm -->
   <link name="chassisasm">
     <inertial>
-      <origin xyz="8.45344e-11 -0.0316171 0.0051848" rpy="0 0 0"/>
-      <mass value="1.41284"/>
-      <inertia ixx="0.00541257" ixy="3.20299e-11" ixz="2.71365e-11" iyy="0.00160159" iyz="0.000214607" izz="0.0059559"/>
+      <origin xyz="1.18727e-10 -0.00365374 0.00323712" rpy="0 0 0"/>
+      <mass value="1.00595"/>
+      <inertia ixx="0.00261865" ixy="3.53696e-11" ixz="2.69039e-11" iyy="0.00149827" iyz="2.43686e-05" izz="0.00311228"/>
     </inertial>
     <!-- Part part_1 -->
     <visual>
