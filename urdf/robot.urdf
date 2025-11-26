@@ -408,7 +408,7 @@
     <parent link="chassisasm"/>
     <child link="hipasm"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-1" upper="1"/>
+    <limit effort="1.8" velocity="6" lower="-0.00913852" upper="0.00913852"/>
   </joint>
   <!-- Link hipasm_2 -->
   <link name="hipasm_2">
@@ -616,7 +616,7 @@
     <parent link="chassisasm"/>
     <child link="hipasm_2"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-1" upper="1"/>
+    <limit effort="1.8" velocity="6" lower="-0.00913852" upper="0.00913852"/>
   </joint>
   <!-- Link hipasm_3 -->
   <link name="hipasm_3">
@@ -824,7 +824,7 @@
     <parent link="chassisasm"/>
     <child link="hipasm_3"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-1" upper="1"/>
+    <limit effort="1.8" velocity="6" lower="-0.00913852" upper="0.00913852"/>
   </joint>
   <!-- Link hipasm_4 -->
   <link name="hipasm_4">
@@ -1032,6 +1032,6 @@
     <parent link="chassisasm"/>
     <child link="hipasm_4"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-1" upper="1"/>
+    <limit effort="1.8" velocity="6" lower="-0.00913852" upper="0.00913852"/>
   </joint>
 </robot>
