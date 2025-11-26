@@ -10,8 +10,8 @@
   "assembly_name": "FullBot",
   "joint_properties": {
         "*": {
-            "max_effort": 1.8,
-            "max_velocity": 6.0
+            "max_effort": 2.1,
+            "max_velocity": 6.5
         }
   }
 }
