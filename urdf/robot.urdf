@@ -5,9 +5,9 @@
   <!-- Link chassisasm -->
   <link name="chassisasm">
     <inertial>
-      <origin xyz="1.18727e-10 -0.00365374 0.00323712" rpy="0 0 0"/>
+      <origin xyz="1.15578e-10 -0.00365408 0.00321929" rpy="0 0 0"/>
       <mass value="1.00595"/>
-      <inertia ixx="0.00261865" ixy="3.53696e-11" ixz="2.69039e-11" iyy="0.00149827" iyz="2.43686e-05" izz="0.00311228"/>
+      <inertia ixx="0.00259383" ixy="3.60077e-11" ixz="2.72242e-11" iyy="0.00149034" iyz="2.44279e-05" izz="0.00307823"/>
     </inertial>
     <!-- Part part_1 -->
     <visual>
@@ -392,7 +392,7 @@
     <parent link="part_1"/>
     <child link="2000_0025_0002"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-1.5708" upper="1.5708"/>
+    <limit effort="2.1" velocity="6.5" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from hipasm to part_1 -->
   <joint name="bl_top" type="revolute">
@@ -400,7 +400,7 @@
     <parent link="hipasm"/>
     <child link="part_1"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-1.5708" upper="1.5708"/>
+    <limit effort="2.1" velocity="6.5" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from chassisasm to hipasm -->
   <joint name="bl_hip" type="revolute">
@@ -408,7 +408,7 @@
     <parent link="chassisasm"/>
     <child link="hipasm"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-0.00913852" upper="0.00913852"/>
+    <limit effort="2.1" velocity="6.5" lower="-0.00913852" upper="0.00913852"/>
   </joint>
   <!-- Link hipasm_2 -->
   <link name="hipasm_2">
@@ -600,7 +600,7 @@
     <parent link="part_1_2"/>
     <child link="2000_0025_0002_2"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-1.5708" upper="1.5708"/>
+    <limit effort="2.1" velocity="6.5" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from hipasm_2 to part_1_2 -->
   <joint name="fl_top" type="revolute">
@@ -608,7 +608,7 @@
     <parent link="hipasm_2"/>
     <child link="part_1_2"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-1.5708" upper="1.5708"/>
+    <limit effort="2.1" velocity="6.5" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from chassisasm to hipasm_2 -->
   <joint name="fl_hip" type="revolute">
@@ -616,7 +616,7 @@
     <parent link="chassisasm"/>
     <child link="hipasm_2"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-0.00913852" upper="0.00913852"/>
+    <limit effort="2.1" velocity="6.5" lower="-0.00913852" upper="0.00913852"/>
   </joint>
   <!-- Link hipasm_3 -->
   <link name="hipasm_3">
@@ -808,7 +808,7 @@
     <parent link="part_1_3"/>
     <child link="2000_0025_0002_3"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-1.5708" upper="1.5708"/>
+    <limit effort="2.1" velocity="6.5" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from hipasm_3 to part_1_3 -->
   <joint name="fr_top" type="revolute">
@@ -816,7 +816,7 @@
     <parent link="hipasm_3"/>
     <child link="part_1_3"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-1.5708" upper="1.5708"/>
+    <limit effort="2.1" velocity="6.5" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from chassisasm to hipasm_3 -->
   <joint name="fr_hip" type="revolute">
@@ -824,7 +824,7 @@
     <parent link="chassisasm"/>
     <child link="hipasm_3"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-0.00913852" upper="0.00913852"/>
+    <limit effort="2.1" velocity="6.5" lower="-0.00913852" upper="0.00913852"/>
   </joint>
   <!-- Link hipasm_4 -->
   <link name="hipasm_4">
@@ -1016,7 +1016,7 @@
     <parent link="part_1_4"/>
     <child link="2000_0025_0002_4"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-1.5708" upper="1.5708"/>
+    <limit effort="2.1" velocity="6.5" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from hipasm_4 to part_1_4 -->
   <joint name="br_top" type="revolute">
@@ -1024,7 +1024,7 @@
     <parent link="hipasm_4"/>
     <child link="part_1_4"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-1.5708" upper="1.5708"/>
+    <limit effort="2.1" velocity="6.5" lower="-1.5708" upper="1.5708"/>
   </joint>
   <!-- Joint from chassisasm to hipasm_4 -->
   <joint name="br_hip" type="revolute">
@@ -1032,6 +1032,6 @@
     <parent link="chassisasm"/>
     <child link="hipasm_4"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1.8" velocity="6" lower="-0.00913852" upper="0.00913852"/>
+    <limit effort="2.1" velocity="6.5" lower="-0.00913852" upper="0.00913852"/>
   </joint>
 </robot>
